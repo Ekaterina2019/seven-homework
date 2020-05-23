@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basket</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <span class="title-basket">Оформление заказа</span>
+    <hr>
+    <div class="one">
+        <div class="product">
+        <span class="name-product">Toвар-1</span>
+        <img src="image/basket.jpg" alt="#" width="100" height="100">
+            <span>Цена: 120 p </span>
+        </div>
+        <button class=" baskets plus" data-id="1" data-price="120" data-name="Товар-1">+</button>
+        <button class=" baskets minus" data-id="1" data-price="120" data-name="Товар-1">-</button>
+    </div>
+    <div class="two">
+      <div class="product">
+        <span class="name-product">Toвар-2</span>
+        <img src="image/basket.jpg" alt="#" width="100" height="100">
+          <span>Цена: 150 p </span>
+    </div>
+    <button class=" baskets plus" data-id="2" data-price="150" data-name="Товар-2">+</button>
+    <button class=" baskets minus" data-id="2" data-price="150" data-name="Товар-2">-</button>
+</div>
+    <hr>
+    <span class="basket"> Корзина</span>
+    <table>
+        <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Название</th>
+            <th scope="col">Цена</th>
+            <th scope="col">Количество</th>
+        </tr>
+    </thead>
+    </table>
+    <span>Итого:</span>
+    <span class="total">0</span>
+    <button class="delete">Очистить корзину</button>
+</div>
+<script src="script.js"></script>
+
+
+</body>
+</html>

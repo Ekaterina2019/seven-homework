@@ -1,0 +1,38 @@
+.title-basket{
+    color: darkblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+.one, .two{
+    display: flex;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.name-product{
+    font-size: 25px;
+    font-weight: initial;
+}
+.plus, .minus{
+    width: 40px;
+    height: 40px;
+    background: chartreuse;
+    color: black;
+    outline: 2px solid #000;
+    margin: 5px;
+}
+.basket{
+    font-weight: bold;
+    font-size: 25px;
+}
+td, th {
+    padding: 5px;
+    border: 1px solid black;
+
+}
+.delete{
+    padding: 10px;
+    margin: 50px 0 0 350px;
+}
